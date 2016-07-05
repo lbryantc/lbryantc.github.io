@@ -1,0 +1,153 @@
+body {
+    margin: auto;
+    width: 960px;
+    background-color: #A4D3EE;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.nav {
+    border: 2px yellow solid;
+    width: 960px;
+    background-color: #999999;
+    text-align: center;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.sidehome {
+    float: left;
+    width: 30%;
+    height: 500px;
+    border: 2px orange solid;
+}
+.sidehome li {
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #FF0000; 
+}
+
+.mainhome {
+    float: right;
+    width: 69%;
+    border: 2px solid orange;
+    height: 500px;
+}
+.mainhome img {
+    height: 400px;
+    width: 330px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 166px;
+    padding-right: 166px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    width: 120px;
+   
+}
+
+
+.mother img {
+    margin: 10px 150px 10px 150px;
+    width: 660px;
+    
+}
+
+.mother p {
+    text-align: left;
+    margin-left: 160px;
+    margin-right: 160px;
+    width: 600px;
+}
+
+.heels img {
+    margin: 10px 150px 10px 150px;
+    width: 660px;
+    margin-top: 20px; /*space between mother and heels*/
+    
+}
+
+.heels p {
+    text-align: left;
+    margin-left: 160px;
+    margin-right: 160px;
+    width: 600px;
+}
+
+.plumpic img {
+    width: 400px;
+    margin: 10px 280px 10px 280px;
+}
+
+.plums {
+    width: 400px;
+    margin: 10px 280px 10px 280px;
+}
+
+.oatpic img {
+    width: 400px;
+    margin: 10px 280px 10px 280px;
+}
+
+.oats {
+    width: 400px;
+    margin: 10px 280px 10px 280px;
+}
+
+.sidecontent {
+    float: left;
+    width: 30%;
+    height: 500px;
+    border: 2px orange solid;
+    font-size: 10px;
+}
+
+.sidecontent li {
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #FF0000; 
+}
+
+.maincontent {
+    float: right;
+    width: 69%;
+    border: 2px solid orange;
+    height: 500px;
+    font-size: 10px;
+    text-align: center;
+    
+}
+
+.maincontent img {
+    height: 200px;
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
