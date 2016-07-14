@@ -11,19 +11,20 @@ h1 {
 }
 
 .nav {
-    border: 2px yellow solid;
+    /*border: 2px yellow solid;*/
     width: 960px;
     background-color: #999999;
     text-align: center;
     height: 50px;
-    margin-top: 20px;
+    margin-top: 10px;
+    padding-top: 2px;
 }
 
 .sidehome {
     float: left;
     width: 30%;
-    height: 500px;
-    border: 2px orange solid;
+    height: 600px;
+    border: 2px #003300 solid;
 }
 .sidehome li {
     text-align: center;
@@ -36,18 +37,17 @@ h1 {
 
 .mainhome {
     float: right;
-    width: 69%;
-    border: 2px solid orange;
-    height: 500px;
+    width: 68%;
+    border: 2px solid #003300;
+    height: 600px;
 }
 .mainhome img {
-    height: 400px;
-    width: 330px;
+    width: 550px;
+    height: 500px;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 166px;
-    padding-right: 166px;
-    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 h2 {
@@ -120,23 +120,23 @@ li {
     float: left;
     width: 30%;
     height: 500px;
-    border: 2px orange solid;
-    font-size: 10px;
-}
+    border: 2px #003300 solid;
+}    
 
 .sidecontent li {
-    text-align: center;
     display: block;
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-    color: #FF0000; 
+    text-align: center;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #FF6600; 
+    font-size: 10px;
 }
 
 .maincontent {
     float: right;
-    width: 69%;
-    border: 2px solid orange;
+    width: 68%;
+    border: 2px solid #003300;
     height: 500px;
     font-size: 10px;
     text-align: center;
@@ -146,8 +146,8 @@ li {
 .maincontent img {
     height: 200px;
     width: 200px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
