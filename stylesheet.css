@@ -2,7 +2,8 @@ body {
     margin: auto;
     width: 960px;
     background-color: #A4D3EE;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: 'PT Serif', 'Averia Serif Libre', serif;
+    /*site's main fonts*/
 }
 
 h1 {
@@ -21,6 +22,7 @@ h1 {
 }
 
 .sidehome {
+    /*sidebar on index.html*/
     float: left;
     width: 30%;
     height: 600px;
@@ -36,12 +38,14 @@ h1 {
 }
 
 .mainhome {
+    /*includes photo on index.html*/
     float: right;
-    width: 68%;
+    width: 68%;/*side 30 plus main 68, gap 2%*/
     border: 2px solid #003300;
     height: 600px;
 }
 .mainhome img {
+    /*formatting for img on index.html*/
     width: 550px;
     height: 500px;
     padding-top: 50px;
@@ -65,7 +69,6 @@ h4 {
 li {
     display: inline-block;
     width: 120px;
-   
 }
 
 
@@ -96,6 +99,10 @@ li {
     width: 600px;
 }
 
+table {
+    border-spacing: 10px;
+}
+
 .plumpic img {
     width: 400px;
     margin: 10px 280px 10px 280px;
@@ -117,6 +124,7 @@ li {
 }
 
 .sidecontent {
+    /*sidebar on content.html*/
     float: left;
     width: 30%;
     height: 500px;
